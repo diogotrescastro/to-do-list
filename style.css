@@ -1,5 +1,5 @@
 .selected {
-  background-color: gray;
+  background-color: rgba(128, 128, 128, 0.103);
 }
 
 .completed {
@@ -52,12 +52,26 @@ button {
   font-size: 17px;
   padding: 16px 31px;
   text-decoration: none;
+  appearance: none;
 }
 
 button:hover {
   position: relative;
   top: 1px;
+  border: none;
 }
+
+button:focus{
+  outline: thin dotted;
+      outline: 0px auto -webkit-focus-ring-color;
+      outline-offset: 0px;
+  }
+  
+ button:focus {
+   outline: thin dotted;
+      outline: 0px auto -webkit-focus-ring-color;
+      outline-offset: 0px;
+  }
 
 #remover-selecionado {
   background-color: rgb(255 , 89 , 94);
