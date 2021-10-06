@@ -1,9 +1,5 @@
-.selected {
-  background-color: rgba(128, 128, 128, 0.103);
-}
-
-.completed {
-  text-decoration: line-through solid black;
+html {
+  overflow-x: hidden;
 }
 
 body {
@@ -13,26 +9,29 @@ body {
   justify-content: center;
   align-items: flex-start;
   padding-top: 30px;
+  margin: 0;
+  padding: 0;
 }
 
-header {
+.section-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: white;
-  padding: 30px;
+  padding: 20px;
   border-radius: 10px 30px;
+  max-width: 90vw;
   box-sizing: content-box;
   box-shadow: 10px 10px 50px rgb(0 , 90 , 173);
+  margin: 30px;
 }
+
 
 h1 {
   font-family: Gloria Hallelujah, cursive;
   text-align: center;
-  font-size: 40px;
+  font-size: 2rem;
   margin-bottom: 0%;
-}
-
-li {
-  font-family: Open Sans, sans-serif;
-  font-size: large;
 }
 
 p {
@@ -40,6 +39,55 @@ p {
   text-align: center;
   margin-top: 0;
   padding-top: 0;
+}
+
+.div-input {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+input {
+  background-color: white;
+  font-size: 17px;
+  padding: 10px 20px;
+  border: solid 2px rgb(228 , 228 , 228);
+  border-radius: 10px;
+  outline: none;
+  max-height: 30px;
+  width: 60%
+}
+
+input:focus {
+  border: solid 3px rgb(25 , 130 , 196);
+  border-radius: 10px;
+}
+
+ol {
+  max-width: 80%;
+}
+
+li {
+  font-family: Open Sans, sans-serif;
+  font-size: large;
+  word-wrap:break-word;
+}
+
+.selected {
+  background-color: rgba(128, 128, 128, 0.103);
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+.div-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 button {
@@ -50,7 +98,8 @@ button {
   color: white;
   font-family: Open Sans, sans-serif;
   font-size: 17px;
-  padding: 16px 31px;
+  padding: 15px;
+  margin: 10px;
   text-decoration: none;
   appearance: none;
 }
@@ -97,19 +146,4 @@ hr {
   margin-top: 30px;
   margin-bottom: 30px;
   border-color: rgba(126 , 136 , 143 , 0.1);
-}
-
-input {
-  background-color: white;
-  font-size: 17px;
-  padding: 10px 20px;
-  border: solid 2px rgb(228 , 228 , 228);
-  border-radius: 10px;
-  outline: none;
-  width: 400px;
-}
-
-input:focus {
-  border: solid 3px rgb(25 , 130 , 196);
-  border-radius: 10px;
 }

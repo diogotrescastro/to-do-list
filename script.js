@@ -1,4 +1,4 @@
-// Requisito 5 e 6
+// Cria um novo item na lista de tarefas de forma ordenada
 
 const submitItem = document.getElementById('criar-tarefa');
 const inputItem = document.getElementById('texto-tarefa');
@@ -13,7 +13,7 @@ function addItem() {
   });
 }
 
-// Requisito 7 e 8
+// Função que colore o background do item selecionado
 function backgroundSelected() {
   outputOl.addEventListener('click', (event) => {
     const drawLi = event.target;
@@ -25,7 +25,7 @@ function backgroundSelected() {
   });
 }
 
-// Requisito 9
+// Marca o item clicado duas vezes como concluido
 function completedItem() {
   outputOl.addEventListener('dblclick', (event) => {
     const troughLi = event.target;
@@ -33,7 +33,7 @@ function completedItem() {
   });
 }
 
-// Requisito 10
+// Função de zerar todos items da lista
 function clearAll() {
   const clearBttn = document.querySelector('#apaga-tudo');
   clearBttn.addEventListener('click', () => {
@@ -41,7 +41,7 @@ function clearAll() {
   });
 }
 
-// Requisito 11
+// Função de limpar itens concluidos
 function clearComplet() {
   const clearCompleted = document.querySelector('#remover-finalizados');
   clearCompleted.addEventListener('click', () => {
@@ -50,7 +50,7 @@ function clearComplet() {
   });
 }
 
-// Requisito 12
+// Função para salvar lista no localStorage
 function saveList() {
   const savebttn = document.querySelector('#salvar-tarefas');
   savebttn.addEventListener('click', () => {
@@ -59,7 +59,7 @@ function saveList() {
   outputOl.innerHTML = localStorage.getItem('toDoList');
 }
 
-// Requisito 14
+// Função para remover item selecionado
 function clearSelec() {
   const clearSelectedBttn = document.querySelector('#remover-selecionado');
   clearSelectedBttn.addEventListener('click', () => {
