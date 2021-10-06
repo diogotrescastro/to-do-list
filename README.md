@@ -2,7 +2,7 @@
 
 Aplicação web de lista de tarefas, com opções de adicionar item, marcar como concluído e remover. 
 
- <a href="https://diogoaugusto.dev/to-do-list/">Clique aqui para conferir o Deploy.</a>
+ <a href="https://diogoaugusto.dev/to-do-list/" target="_blank">Clique aqui para conferir o Deploy.</a>
 
 <p float="left">
 <img width="500" margin:"5px" src="todolist.gif">
@@ -17,4 +17,4 @@ Aplicação web de lista de tarefas, com opções de adicionar item, marcar como
  ### <a href="https://diogoaugusto.dev/" target="_blank">👉 Clique e Confira meu Portfólio</a>
 
  ### 🤝 Conecte-se Comigo:
-<a href="https://linkedin.com/in/diogoaugusto" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="diogoaugusto" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/diogoaugusto" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="diogoaugusto" height="30" width="40" /></a>
